@@ -1,0 +1,537 @@
+#NavContainer {
+    height: 70px;
+    width: 100%;
+    background-color: #e06421;
+    display: flex;
+    color: white;
+
+    align-items: center;
+}
+
+#logo {
+    margin-left: 50px;
+    height: 60px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://res.cloudinary.com/dutdah0l9/image/upload/v1720058694/Swiggy_logo_bml6he.png");
+    background-position: center;
+    background-size: calc(100%);
+}
+
+#navsec {
+
+    position: absolute;
+    right: 0;
+    height: 70px;
+    width: 750px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#navsec div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 160px;
+}
+
+#Get {
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 9px;
+}
+
+#Get #a {
+    height: 55px;
+    width: 120px;
+}
+
+#Get #b {
+    height: 55px;
+    width: 40px;
+    background-image: url('https://png.pngtree.com/png-vector/20230918/ourmid/pngtree-white-arrow-pointer-3d-symbol-png-image_10091234.png');
+    background-position: center;
+    background-size: cover;
+}
+
+body {
+    background-color: #e06421;
+}
+
+#body {
+    margin-top: 0px;
+    height: 500px;
+    width: 100%;
+    background-color: #e06421;
+    display: flex;
+
+}
+
+#body #left {
+    margin-top: 70px;
+    height: 600px;
+    width: 250px;
+    background-image: url('https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/testing/seo-home/Veggies_new.png');
+    background-position: center;
+    background-size: cover;
+}
+
+#body #right {
+    margin-top: 70px;
+    position: absolute;
+    right: 0;
+    height: 600px;
+    width: 250px;
+    background-image: url('https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/testing/seo-home/Sushi_replace.png');
+    background-position: center;
+    background-size: cover;
+}
+
+#body #center {
+
+    align-items: center;
+    font-size: 23px;
+    color: white;
+    margin-top: 70px;
+    height: 400px;
+    width: 1000px;
+}
+
+#inputholder {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input1 {
+    display: flex;
+
+    border-radius: 15px;
+    height: 60px;
+    width: 450px;
+    background-color: rgb(244, 244, 244)
+}
+
+#input1 #loc {
+    background-image: url("https://png.pngtree.com/png-vector/20230413/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-vector-png-image_6704161.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px 0px 0px 15px;
+    height: 60px;
+    width: 60px;
+}
+
+input {
+    border: none;
+    height: 55px;
+    width: 330px;
+}
+
+#input1 #drag {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfrs5S1EECRas0OghinitI_dqzYXbcFHlkkhiAuM1T5MOZbMqe08UNRInz_6vptZYl1jc&usqp=CAU");
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px 0px 0px 15px;
+    height: 60px;
+    width: 60px;
+    border-radius: 0px 15px 15px 0px;
+
+}
+
+#input2 {
+    display: flex;
+    border-radius: 15px;
+    height: 60px;
+    width: 450px;
+    background-color: rgb(255, 255, 255)
+}
+
+#input22 input {
+    border-radius: 15px 0px 0px 15px;
+    border: none;
+    height: 55px;
+    width: 392px;
+}
+
+#input2 #search {
+    background-image: url('https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-5.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 0px 15px 15px 0px;
+    height: 60px;
+    width: 55px;
+}
+
+#center1 {
+    margin-left: -50px;
+    margin-top: 100px;
+    height: 350px;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#center1 div {
+    border-radius: 9px;
+    height: 300px;
+    width: 320px;
+}
+
+#center1 #upto1 {
+    background-image: url('https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/ec86a309-9b06-48e2-9adc-35753f06bc0a_Food3BU.png');
+
+    background-position: center;
+    background-size: cover;
+}
+
+#center1 #upto2 {
+    background-image: url('https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/b5c57bbf-df54-4dad-95d1-62e3a7a8424d_IM3BU.png');
+    background-position: center;
+    background-size: cover;
+}
+
+#center1 #upto3 {
+    background-image: url('https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/b6d9b7ab-91c7-4f72-9bf2-fcd4ceec3537_DO3BU.png');
+
+    background-position: center;
+    background-size: cover;
+}
+
+#line {
+    height: 20px;
+    width: 1000px;
+    background-color: white;
+}
+
+#items {
+    margin-top: 300px;
+    height: 350px;
+    width: 1500px;
+    background-color: rgb(255, 255, 255);
+}
+
+#item1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#items #item1 div {
+    border-radius: 5px;
+    margin-top: 15px;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+}
+
+#item2 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#items #item2 div {
+    border-radius: 5px;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+}
+
+#food1 {
+    background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Biryani.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#food2 {
+    background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Rolls.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#food3 {
+    background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Pizza.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#food4 {
+    background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/North%20Indian.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#food5 {
+    background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Burger.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#food6 {
+    background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Noodles.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#food7 {
+    background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Momo.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#food8 {
+    background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Dosa.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#food9 {
+    background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Shawarma.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#food10 {
+    background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Salad.png");
+
+    background-position: center;
+    background-size: cover;
+}
+
+#food11 {
+    background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Kebab.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#food12 {
+    background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Rasmalai.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#food13 {
+    background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Ice%20Cream.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#food14 {
+    background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Pasta.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#room {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 240px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+#room div {
+
+    margin-top: 30px;
+    border-radius: 9px;
+    height: 200px;
+    width: 20%;
+    background-color: rgb(10, 10, 248);
+}
+
+#room1 {
+
+    color: white;
+
+    background-image: url("https://dineout-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/DINEOUT_ALL_RESTAURANTS/IMAGES/RESTAURANT_IMAGE_SERVICE/2024/8/13/ac3b6951-05df-4133-9107-7a8d8f221a4e_20240813T120028979.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#room2 {
+    color: white;
+    background-image: url("https://dineout-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1700220224/12b4e28bd1af790da2e15f0e0dfb9f8b.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#room3 {
+    color: white;
+    background-image: url("https://dineout-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1699517122/5a1db620736cba634243c4e473c4ca73.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#room4 {
+    color: white;
+    background-image: url("https://dineout-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1700575717/84ec7082bfd9e0c610d5004a30cf729d.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#data {
+    margin-top: -20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+#data div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    height: 50px;
+    width: 20%;
+    background-color: rgb(140, 255, 0);
+}
+
+#data1 {
+    margin-top: -40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+#data1 div {
+    background-color: rgb(142, 228, 115);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    height: 50px;
+    width: 20%;
+}
+#space{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+
+#pic {
+    height: 300px;
+    width: 100%;
+    background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/seo/App_download_banner.png");
+    background-position: center;
+    background-size: cover;
+    
+}
+#footer0{
+    margin-top: -22px;
+    height: 700px;
+    width: 100%;
+    background-color: white;
+}
+#footer0 h1{
+    
+    margin-left:230px;
+}
+#footer0 #FContent{
+    
+    margin-left: 15%;
+    height: 250px;
+    width: 1000px;
+}
+#FContent1 ,#FContent2,#FContent3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:30px 30px 30px 0px;
+    height: 50px;
+    width: 100%;
+}
+#FContent1 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 1px rgb(118, 118, 118);
+    border-radius: 9px;
+    height: 50px;
+    width: 22%;
+}
+#FContent2 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 1px rgb(118, 118, 118);
+
+    border-radius: 9px;
+    height: 50px;
+    width: 22%;
+}
+#FContent3 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 1px rgb(118, 118, 118);
+    border-radius: 9px;
+    height: 50px;
+    width: 22%;
+}
+#mainF{
+    display: flex;
+    height: 550px;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+}
+#mainF1{
+    
+    align-items: center;
+    height: 550px;
+    width: 33%;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#mainF1logo{
+    background-image: url("https://res.cloudinary.com/dutdah0l9/image/upload/v1720058694/Swiggy_logo_bml6he.png");
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+    margin-left:120px ;
+    height: 60px;
+    width: 200px;
+    background-color: brown;
+}
+#mainF2{
+    display: flex;
+}
+#mainF2 div{
+    margin-left: 30px;
+    height: 550px;
+    width: 190px;
+    
+}
+#mainF2a h4,#mainF2b h4,#mainF2c h4,button,#mainF2d h4{
+    margin-left: 30px;
+}
+#mainF2a h2,#mainF2b h2,#mainF2c h2,#mainF2d h2{
+    margin-left: 20px;
+}
+#last{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(253, 253, 253);
+}
